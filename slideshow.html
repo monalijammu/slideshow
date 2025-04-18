@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlideShow</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="slideshow-container">
+        <!--full-width images with number and caption text-->
+       <div class="mySlides fade">
+        <div class="numbertext">1/4</div>
+        <img src="lotus.jpg" style="width:100%">
+        <div class="text"><h1>Lotus: the original glow-up.</h1></div>
+       </div>
+
+       <div class="mySlides fade">
+        <div class="numbertext">2/4</div>
+        <img src="hibiscus.jpg" style="width:100%">
+        <div class="text"><h1>Hibiscus: the tropical queen.</h1></div>
+       </div>
+
+       <div class="mySlides fade">
+        <div class="numbertext">3/4</div>
+        <img src="sunflower.jpg" style="width:100%">
+        <div class="text"><h1>Sunflower: the bright and cheerful.</h1></div>
+       </div>
+
+       <div class="mySlides fade">
+        <div class="numbertext">4/4</div>
+        <img src="daisy.jpg" style="width:100%">
+        <div class="text"><h1>Daisy: the simple yet elegant.</h1></div>
+       </div>
+
+       <!--next and previous buttons-->
+       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!--dots/circles-->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+</body>
+</html>
